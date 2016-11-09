@@ -1,0 +1,110 @@
+
+body {
+	background-color: #ffff99;
+	padding-top: 40px
+}
+
+
+#social-buttons button {
+
+color: white;
+
+}
+
+.btn-twitter {
+
+background-color: #00acee;
+
+border-color: #009ad5;
+
+}
+
+.btn-facebook {
+
+background-color: #4868ac;
+
+border-color: #314776;
+
+}
+
+.btn-pinterest {
+
+background-color: #b62f26;
+
+border-color: #b62f26;
+
+}
+
+.jumbotron {
+
+min-height: 600px;
+
+
+background-size: cover;
+
+background-attachment: fixed;
+
+}
+
+#sidebar {
+    width:300px;
+    float:left;
+}
+
+#content {
+    width:724px;
+    float:right;
+    padding-left:24px;
+}
+
+/* navigation */
+nav {
+    width:100%;
+    background-color:rgb(240,240,240);
+    border:solid 1px rgb(220,220,220);
+    padding:0 12px;
+}
+
+nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    margin-top:12px;
+}
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+
+}
+
+nav li a {
+    color:rgb(50,50,50);
+    font-weight:700;
+      float: left
+}
+
+a.nav-active {
+    color:#ccc;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.4);
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+max-height: 600px;
+line-height: 1;
+width: auto; 
+
+text-align: center;
+.carousel-item {
+	width:900px;
+	height:500px;
+
+}
