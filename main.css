@@ -3,8 +3,11 @@ body {
 	background-color: #efeff5;
 	padding-top: 40px
 }
-
-
+blockquote {
+    padding:10px x 20px;
+    margin: 0 0 20px;
+    border-left: 0;
+}
 #social-buttons button {
 
 color: white;
