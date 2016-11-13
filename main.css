@@ -3,11 +3,13 @@ body {
 	background-color: #efeff5;
 	padding-top: 40px
 }
+
 blockquote {
-    padding:10px x 20px;
     margin: 0 0 20px;
     border-left: 0;
+    position: relative;
 }
+
 #social-buttons button {
 
 color: white;
@@ -79,10 +81,6 @@ nav ul {
     list-style-type:none;
     margin:0;
     padding:0;
-}
-
-nav li {
-
 }
 
 nav li a {
