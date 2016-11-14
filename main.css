@@ -4,16 +4,15 @@ body {
 	padding-top: 60px
 }
 
-<<<<<<< Updated upstream
 blockquote {
     margin: 0 0 20px;
     border-left: 0;
     position: relative;
-=======
-nav {
+
+/*nav {
     background: rgba(0,0,0,0.5)
 
-}
+}*/
 
 h1 {
     font-family: 'Lobster', cursive;
@@ -23,7 +22,7 @@ h1 {
 h2 {
     font-family: 'Lobster Two', cursive;
     text-align: center;
->>>>>>> Stashed changes
+
 }
 
 #social-buttons button {
@@ -99,15 +98,14 @@ nav ul {
     margin:0;
     padding:0;
 
-<<<<<<< Updated upstream
-=======
+
 }
 
 nav a {
     font-family: 'Cabin', sans-serif;
 }
 
->>>>>>> Stashed changes
+
 nav li a {
     color:rgb(50,50,50);
     font-weight:700;
@@ -135,8 +133,8 @@ line-height: 1;
  
 
 text-align: center;
-.carousel-item {
+/*.carousel-item {
 	width:900px;
 	height:500px;
 
-}
+}*/
