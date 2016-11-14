@@ -13,9 +13,7 @@
   <script src='startbootsrap-scrolling-nav-gh-pages/js/scrolling-nav.js'></script>
  
 
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  
-  <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster+Two|Montserrat|Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin|Lobster|Lobster+Two|Montserrat|Roboto" rel="stylesheet">
   
 
 <!-- Favicon -->
@@ -77,19 +75,19 @@
     <div class="item active">
       <img class="img-responsive center-block" src="Images/BeeLavender.jpg" alt="First slide">
       <div class="carousel-caption">
-        <h3>Fi Slide</h3>
+        <h3>Toxic pesticides are killing our bees</h3>
       </div>
     </div>
     <div class="item">
       <img class="img-responsive center-block" src="Images/SolitaryBee.jpg" alt="Second slide">
         <div class="carousel-caption">
-        <h3>Second Slide</h3>
+        <h3>Let's ban harmful pesticides</h3>
       </div>
     </div>
     <div class="item">
       <img class="img-responsive center-block" src="Images/BeeFlowers.jpg" alt="Third slide">
         <div class="carousel-caption">
-        <h3>Third Slide</h3>
+        <h3>Join our movement!</h3>
       </div>
     </div>
   </div>
@@ -113,37 +111,48 @@
 <div class="container">
 <div class="row">
 <div class="col-lg-12">
-
+<br>
 <h1>About</h1>
 
 <h2>Why we exist</h2>
-<p>Bees all over the world are disappearing due to pesticides, parasites spreading disease and habitat loss.</p>
-<img src='Images/Infographic1.png'>
+<p>Bees all over the world are disappearing due to a number of reasons: pesticides, parasites spreading disease and habitat loss.</p>
+<br>
+
+<img class="img-responsive center-block" src='Images/Infographic1.png' alt="Responsive image">
+<br>
 
 <h2>Our mission</h2>
 <p>We want to raise awareness about the importance of bees and the creation of honey in cities. Using a model similar to that already implemented in New York, we strive to set up Bee Hives on London rooftops throughout the city!
 </p>
-
 </div>
 </div>
 </div>
-
 </section>
 
 
-<section id="join us!" class="join-us">
+<section id="join-us" class="join-us">
 <div class="container">
 <div class="row">
 <div class="col-lg-12">
 
 <h1>Join us!</h1>
     <form role='form'>
-      <label for="email">Find out more</label>
+      <label for="email">Sign the Petition today!</label>
       <input type="text" name="email" >
-      <button class="btn btn-success">Send</button>
-    </form>
-    <iframe src="https://docs.google.com/forms/d/1HfPKVOHOvxPnB3u3-8TeeWOk-bgGMI8O9ItbjmJ0jBw/edit?usp=sharing" width="760" height="500" frameborder="0" marginwidth="0"></iframe>
+      <button class="btn btn-success" data-toggle="modal" data-target="#myModal">Send</button>
 
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="form" class="form">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    </form>
+     <iframe src="https://docs.google.com/forms/d/1HfPKVOHOvxPnB3u3-8TeeWOk-bgGMI8O9ItbjmJ0jBw/edit?usp=sharing" width="100%" height="500" frameborder="0" marginwidth="0"></iframe>
 </div>
 </div>
 </div>
@@ -159,9 +168,9 @@
  <div class='row'>
 <div class='col-sm-6'>
 <div>
-      <img src='Images/joana.jpg' class="img-circle center-block" width="200" height="200">
+      <img src='Images/joana.jpeg' class="img-circle center-block" width="200" height="200">
      <blockquote>
-     <p>I've been keeping bees for a a while and I'd really want to share my passion with others</p>
+     <p>I've been aware of our impact in bees for long, but since getting into beekeeping recently, I've decided to take action</p>
       <small>Joana Esgalhado, Co-Founder of the Bee Project</small>
       <div style="line-height:19.44px; margin-top: 10px">
       <span style="font-size: 80% !important";
@@ -204,12 +213,38 @@
     </div>
   </div>
 
+
+
+
+
 <!--JS-->
 <script src="jQuery/jquery-3.1.1.min.js"></script>
 <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 
  
-</script>
+<!-- Trigger the modal with a button -->
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Thank you!</h4>
+      </div>
+      <div class="modal-body">
+        <p>We're one signature closer to keeping our bees healty.</p>
+        <p>Give yourself a high-five!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
 
@@ -243,7 +278,7 @@ $(document).ready(function(){
 </script>
 
 
-
-
+<br>
+<br>
 </body>
 </html>
