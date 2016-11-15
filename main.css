@@ -21,6 +21,15 @@ h2 {
     text-align: center;
 }
 
+.carousel-caption {
+    font-family: 'Cabin', sans-serif;
+}
+
+/*h3 {  background: rgba(0,0,0,0.5);
+    max-width: 360px;
+    text-align: center;*/
+
+}
 
 .about { 
 min-height: 100%;
@@ -48,7 +57,7 @@ text-align: center;
 }
 
 #social-buttons button {
-text-align: center;
+float: center;
 color: white;
 
 }
