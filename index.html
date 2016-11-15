@@ -59,36 +59,6 @@
 </nav>
 </div>
 
-<script>
-$(document).ready(function(){
-  // Add scrollspy to <body>
-  $('body').scrollspy({target: ".navbar", offset: 50});
-
-  // Add smooth scrolling on all links inside the navbar
-  $(".navbar").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "1") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  // End if
-  });
-});
-</script>
-<!--End of NavBar-->
-
 <!--Carousel-->
 
 <div class='container-fluid'>
@@ -147,15 +117,16 @@ $(document).ready(function(){
 <h1>About</h1>
 
 <h2>Why we exist</h2>
-<p>Bees all over the world are disappearing due to: pesticides, parasites spreading disease and habitat loss.</p>
+<p>Bees all over the world are disappearing due to a number of reasons: pesticides, climate change, spread of disease, and habitat loss.</p>
+<p>They may be tiny but bees are essential to a healthy environment and healthy economy. We rely on them and other insects to pollinate most of our fruit and vegetables – it would cost UK farmers £1.8 billion a year to pollinate their crops without bees.</p>
+
 <br>
 
 <img class="img-responsive center-block" src='Images/Infographic1.png' alt="Responsive image">
-<small>Data source: The British Beekeepers Association</small>
 <br>
 
 <h2>Our mission</h2>
-<p>We want to raise awareness about the importance of bees and the creation of honey in cities. Using a model similar to that already implemented in New York, we strive to set up Bee Hives on London rooftops throughout the city!
+<p>Bees are under threat and without them so is our food and economy. The Bee Project are encouraging people to make their gardens, streets and communities bee-friendly and take action to secure effective government action too.</p>
 </p>
 </div>
 </div>
@@ -169,8 +140,10 @@ $(document).ready(function(){
 <div class="col-lg-12">
 
 <h1>Join us!</h1>
-
-<p>Sign our petition to ban Neonics!</p>
+    <form role='form'>
+      <label for="email">Sign the Petition today!</label>
+      <input type="text" name="email" >
+      <button class="btn btn-success" data-toggle="modal" data-target="#myModal">Send</button>
 
 </div>
 </div>
@@ -201,7 +174,7 @@ $(document).ready(function(){
 <div>
       <img src='Images/joana.jpeg' class="img-circle center-block" width="200" height="200">
      <blockquote>
-     <p>I've been aware of our impact in bees for a long time, but since getting into beekeeping recently, I've decided to take action</p>
+     <p>I've been aware of our impact in bees for long, but since getting into beekeeping recently, I've decided to take action</p>
       <small>Joana Esgalhado, Co-Founder of the Bee Project</small>
       <div style="line-height:19.44px; margin-top: 10px">
       <span style="font-size: 80% !important";
@@ -215,7 +188,7 @@ $(document).ready(function(){
  <div>
       <img src='Images/madeleine.jpg' class="img-circle center-block" width="200" height="200">
       <blockquote>
-      <p>I have always been passionate about the environment and about campaigning to make our cities greener. I also love honey!</p>
+      <p>I love honey and I have always been passionate about the environment and the idea of making cities greener</p>
       <small>Madeleine Vironda, Co-Founder of the Bee Project</small>
 	<div style="line-height:19.44px; margin-top: 10px">
       <span style="font-size: 80% !important";
@@ -231,21 +204,20 @@ $(document).ready(function(){
 </section>
 
 
+
+
+
     <div class='col-sm-8'>
     </div>
   
     <div id='social-buttons'>
-    <a class='image-link' href='https://twitter.com/hashtag/bees?lang=en-gb' target='_blank'>
-    	<img src='Images/Twitter.png' width="50" height="50">
-    </a>
-      <a class='image-link'>
-    	<img src='Images/Facebook.png' width="50" height="50">
-    </a>
-      <a class='image-link' href='https://www.pinterest.com/explore/honey-bees/' target='_blank'>
-    	<img src='Images/Pinterest.png' width="50" height="50">
-    </a>
+      <button class='btn-twitter'>Twitter</button>
+      <button class='btn-facebook'>Facebook</button>
+      <button class='btn-pinterest'>Pinterest</button>
     </div>
   </div>
+
+
 
 
 
@@ -278,6 +250,8 @@ $(document).ready(function(){
   </div>
 </div>
 
+
+
 <script>
 $(document).ready(function(){
   // Add scrollspy to <body>
@@ -306,6 +280,8 @@ $(document).ready(function(){
   });
 });
 </script>
+
+
 
 
 <br>

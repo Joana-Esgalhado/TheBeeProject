@@ -21,7 +21,7 @@ h2 {
 }
 
 p{
-    font-family: 'Roboto Slab';
+    font-family: 'Cabin';
     font-size: 20px;
     text-align: center;
 }
@@ -98,7 +98,8 @@ nav ul {
 }
 
 nav a {
-    font-family: 'Lobster';
+    font-family: 'Lobster Two', cursive;
+    background: rgba(0,0,0,0.5);
 }
 
 nav li a {
