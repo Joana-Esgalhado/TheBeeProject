@@ -10,7 +10,6 @@ blockquote {
     position: relative;
 }
 
-
 h1 {
     font-family: 'Lobster', cursive;
     text-align: center;
@@ -21,15 +20,19 @@ h2 {
     text-align: center;
 }
 
+p{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    text-align: center;
+}
+
 .carousel-caption {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster Two', cursive;
 }
 
 /*h3 {  background: rgba(0,0,0,0.5);
     max-width: 360px;
-    text-align: center;*/
-
-}
+    text-align: center;}*/
 
 .about { 
 min-height: 100%;
@@ -59,34 +62,7 @@ text-align: center;
 #social-buttons button {
 float: center;
 color: white;
-
 }
-
-.btn-twitter {
-
-background-color: #00acee;
-
-border-color: #009ad5;
-
-}
-
-.btn-facebook {
-
-background-color: #4868ac;
-
-border-color: #314776;
-
-}
-
-.btn-pinterest {
-
-background-color: #b62f26;
-
-border-color: #b62f26;
-
-}
-
-
 
 #sidebar {
     width:300px;
@@ -119,27 +95,21 @@ nav ul {
     list-style-type:none;
     margin:0;
     padding:0;
-
-
 }
 
 nav a {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster';
 }
-
 
 nav li a {
     color:rgb(50,50,50);
     font-weight:700;
       float: left;
-    
 }
 
 /*a .nav-active {
     color:#ecf9f2;
-
 }
-
 nav {
    background-color: rgba(0,0,0,0.5);
 }*/
