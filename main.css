@@ -12,14 +12,24 @@ blockquote {
 
 h1 {
     font-family: 'Lobster', cursive;
+    color: #009933;
     text-align: center;
 }
 
 h2 {
     font-family: 'Lobster Two', cursive;
+    color: #006600;
     text-align: center;
 }
-
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+h3 {
+    font-family: 'Lobster Two', cursive; 
+    font-size:40px;
+    color: white;
+    text-align: center;
+}
+}
 p {
     font-family: 'Cabin';
     font-size: 20px;
