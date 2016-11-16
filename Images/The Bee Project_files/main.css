@@ -4,10 +4,10 @@ body {
 	padding-top: 60px
 }
 
-blockquote {
+/*blockquote {
     margin: 0 0 20px;
     border-left: 0;
-    position: relative;
+    position: relative;*/
 }
 
 h1 {
@@ -20,7 +20,7 @@ h2 {
     text-align: center;
 }
 
-p {
+p{
     font-family: 'Cabin';
     font-size: 20px;
     text-align: center;
@@ -36,9 +36,9 @@ label {
     font-family: 'Lobster Two', cursive;
 }
 
-.about-us { 
+.about { 
 min-height: 100%;
-padding-top: 50px;
+padding-top: 60px;
 text-align: center;
 }
 
@@ -50,7 +50,7 @@ text-align: center;
 
 .form { 
 min-height: 100%;
-padding-top: 30px;
+padding-top: 50px;
 text-align: center;
 }
 
@@ -125,6 +125,7 @@ nav li a {
     font-weight:700;
       float: left;
 }
+
 
 
 .back-to-top {
